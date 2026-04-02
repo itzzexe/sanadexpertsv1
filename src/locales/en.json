@@ -135,64 +135,96 @@
     "title": "Comprehensive consulting solutions that meet your organization's needs",
     "subtitle": "Our Specialized Services",
     "financial": {
-      "title": "Financial Consulting",
-      "subtitle": "Professional financial consulting for sustainable growth",
-      "description": "We provide comprehensive financial consulting services to help you achieve your investment goals and improve financial performance through strategic planning and advanced analysis using the latest financial tools and methodologies",
+      "title": "Financial & Advisory Services",
+      "subtitle": "Our Financial & Advisory Services",
+      "description": "We provide comprehensive financial and advisory services that ensure accuracy, transparency, and strategic growth. Our expertise bridges local practices with international standards like IFRS to drive excellence.",
       "features": [
-        "Strategic financial planning",
-        "Investment portfolio management",
-        "Advanced financial analysis",
-        "Financing and funding consultations"
+        "Accounting & Bookkeeping",
+        "Financial Reporting & Audit Readiness",
+        "IFRS & Accounting Advisory",
+        "Budgeting & Forecasting"
       ],
       "services": [
         {
-          "name": "Strategic Financial Planning",
-          "description": "Comprehensive financial planning to achieve long-term goals",
+          "name": "Accounting & Bookkeeping",
+          "description": "Structured, reliable financial records aligned with international standards",
           "features": [
-            "Financial goal setting",
-            "Budget planning and management",
-            "Cash flow analysis",
-            "Risk assessment and management"
+            "Bookkeeping and GL management",
+            "Month-end closing",
+            "Reconciliations"
           ]
         },
         {
-          "name": "Investment Portfolio Management",
-          "description": "Professional management of investment portfolios for optimal returns",
+          "name": "Financial Reporting & Audit Readiness",
+          "description": "Ensuring accuracy, compliance, and audit preparedness",
           "features": [
-            "Investment strategy development",
-            "Portfolio diversification",
-            "Performance monitoring",
-            "Risk management"
+            "IFRS financial statements",
+            "Audit support",
+            "Financial control frameworks"
           ]
         },
         {
-          "name": "Advanced Financial Analysis",
-          "description": "In-depth financial analysis for informed decision making",
+          "name": "IFRS & Accounting Advisory",
+          "description": "Bridging local practices with international standards",
           "features": [
-            "Financial statement analysis",
-            "Market research and analysis",
+            "IFRS conversion",
+            "Accounting policies",
+            "Technical advisory"
+          ]
+        },
+        {
+          "name": "Budgeting & Forecasting",
+          "description": "Driving financial discipline and forward planning",
+          "features": [
+            "Budget preparation",
+            "Financial forecasting",
+            "Scenario analysis"
+          ]
+        },
+        {
+          "name": "Financial Analysis & Performance Management",
+          "description": "Turning numbers into actionable insights",
+          "features": [
+            "KPI development",
+            "Profitability analysis",
+            "Dashboard reporting"
+          ]
+        },
+        {
+          "name": "Feasibility Studies & Business Planning",
+          "description": "Supporting investment decisions with robust analysis",
+          "features": [
             "Feasibility studies",
+            "Business plans",
             "Financial modeling"
           ]
         },
         {
-          "name": "Financing Consultations",
-          "description": "Expert guidance on financing options and funding strategies",
+          "name": "CFO Advisory & Financial Transformation",
+          "description": "Enhancing financial functions and governance",
           "features": [
-            "Funding source identification",
-            "Loan application assistance",
-            "Investment opportunity evaluation",
-            "Financial restructuring"
+            "Finance structuring",
+            "Policies & procedures",
+            "Process optimization"
+          ]
+        },
+        {
+          "name": "Banking & Regulatory Advisory",
+          "description": "Specialized expertise in financial institutions",
+          "features": [
+            "Capital adequacy & ICAAP",
+            "Regulatory reporting",
+            "Islamic finance advisory"
           ]
         }
       ],
       "benefits": [
-        "Improved return on investment by up to 25%",
-        "Reduced financial risks and enhanced stability",
-        "Better financial decision making",
-        "Achieving sustainable financial growth"
+        "Adherence to IFRS and global standards",
+        "Improved financial transparency and governance",
+        "Enhanced audit readiness and compliance",
+        "Data-driven strategic decision support"
       ],
-      "cta": "Discover Our Services"
+      "cta": "Explore Our Solutions"
     },
     "technology": {
       "title": "Technology and Innovation",
