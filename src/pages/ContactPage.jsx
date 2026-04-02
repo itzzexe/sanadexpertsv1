@@ -33,7 +33,17 @@ const ContactPage = () => {
   }, []);
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    if (name === 'phone') {
+      // Regular expression to allow only numbers and + 
+      const filteredValue = value.replace(/[^\d+]/g, '');
+      // Restrict to max 16 characters in logic
+      if (filteredValue.length <= 16) {
+        setFormData({ ...formData, [name]: filteredValue });
+      }
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleFileChange = (e) => {
@@ -179,22 +189,48 @@ const ContactPage = () => {
                 <div className="row">
                   <div className="col-md-6 mb-3">
                     <label>{t('contact.form.name')}</label>
-                    <input name="from_name" type="text" required />
+                    <input 
+                      name="from_name" 
+                      type="text" 
+                      value={formData.from_name}
+                      onChange={handleChange}
+                      required 
+                    />
                   </div>
                   <div className="col-md-6 mb-3">
                     <label>{t('contact.form.email')}</label>
-                    <input name="from_email" type="email" required />
+                    <input 
+                      name="from_email" 
+                      type="email" 
+                      value={formData.from_email}
+                      onChange={handleChange}
+                      required 
+                    />
                   </div>
                 </div>
 
                 <div className="row">
                   <div className="col-md-6 mb-3">
                     <label>{t('contact.form.phone')}</label>
-                    <input name="phone" type="tel" required />
+                    <input 
+                      name="phone" 
+                      type="tel" 
+                      value={formData.phone}
+                      onChange={handleChange}
+                      placeholder="+964..."
+                      minLength="10"
+                      maxLength="16"
+                      required 
+                    />
                   </div>
                   <div className="col-md-6 mb-3">
                     <label>{t('contact.form.select_service')}</label>
-                    <select name="service" required>
+                    <select 
+                      name="service" 
+                      value={formData.service}
+                      onChange={handleChange}
+                      required
+                    >
                       <option value="">{t('contact.form.select_service')}</option>
                       <option value="tech">{t('services.technology.title')}</option>
                       <option value="financial">{t('services.financial.title')}</option>
@@ -206,7 +242,13 @@ const ContactPage = () => {
 
                 <div className="mb-3">
                   <label>{t('contact.form.message')}</label>
-                  <textarea name="message" rows="5" required></textarea>
+                  <textarea 
+                    name="message" 
+                    rows="5" 
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                  ></textarea>
                 </div>
 
                 <div className="mb-4">

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Shield, TrendingUp, Cpu, Users, Award, CheckCircle } from 'lucide-react';
 import { getContentByType } from '../services/cmsService';
 import DocumentSEO from '../components/DocumentSEO';
@@ -28,6 +29,12 @@ const AboutPage = () => {
     financial: <TrendingUp className="expertise-icon" />,
     technology: <Cpu className="expertise-icon" />,
     hr: <Users className="expertise-icon" />
+  };
+
+  const routeMap = {
+    financial: '/financial-consulting',
+    technology: '/technology-innovation',
+    hr: '/management-consulting-hr'
   };
 
   return (
@@ -72,17 +79,21 @@ const AboutPage = () => {
              return (
                <motion.div 
                  key={key} 
-                 className="expertise-card glass-card"
+                 className="expertise-card-wrapper"
                  initial={{ opacity: 0, scale: 0.9 }}
                  whileInView={{ opacity: 1, scale: 1 }}
                  viewport={{ once: true }}
                  transition={{ delay: idx * 0.1 }}
                >
-                 <div className="icon-wrapper">
-                    {iconMap[key] || <Award />}
-                 </div>
-                 <h3>{value.title}</h3>
-                 <p>{value.content}</p>
+                 <Link to={routeMap[key] || '#'} className="expertise-card-link">
+                    <div className="expertise-card glass-card">
+                      <div className="icon-wrapper">
+                          {iconMap[key] || <Award />}
+                      </div>
+                      <h3>{value.title}</h3>
+                      <p>{value.content}</p>
+                    </div>
+                 </Link>
                </motion.div>
              );
           })}

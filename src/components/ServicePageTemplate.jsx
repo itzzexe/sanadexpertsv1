@@ -2,12 +2,14 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { CheckCircle, ArrowRight, ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { getContentByType } from '../services/cmsService';
 import DocumentSEO from './DocumentSEO';
 import './ServicePageTemplate.css';
 
 const ServicePageTemplate = ({ serviceKey, seoKey, children }) => {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
   const [cmsData, setCmsData] = React.useState(null);
   
   useEffect(() => {
@@ -98,19 +100,12 @@ const ServicePageTemplate = ({ serviceKey, seoKey, children }) => {
               </ul>
             </motion.div>
 
-            <div className="cta-sidebar-card">
+            <div className="cta-sidebar-card gold-cta-card">
               <h3>{t('service_detail.ready_to_start')}</h3>
               <p>{t('service_detail.contact_description')}</p>
               <button 
-                className="premium-btn w-full"
-                onClick={() => {
-                  const contactSection = document.getElementById('contact');
-                  if (contactSection) {
-                    contactSection.scrollIntoView({ behavior: 'smooth' });
-                  } else {
-                    window.location.href = '/#contact';
-                  }
-                }}
+                className="gold-premium-btn w-full"
+                onClick={() => navigate('/contact')}
               >
                 <span>{t('service_detail.contact_now')}</span>
                 <ArrowRight size={18} />
