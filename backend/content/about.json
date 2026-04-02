@@ -1,32 +1,74 @@
 {
-    "ar": {
-        "description": "شركة رائدة في الحلول المالية والاستشارات الإدارية والخدمات التقنية المتقدمة.",
-        "goal": "نسعى لأن نكون الشريك الاستراتيجي المفضل للنمو المستدام.",
-        "principles": [
-            "الجودة والتميز",
-            "الشفافية والمصداقية",
-            "الابتكار والتطوير المستمر"
-        ],
-        "achievements": {
-            "projects": "200+",
-            "experience": "10+",
-            "clients": "50+",
-            "satisfaction": "95%"
-        }
+  "ar": {
+    "title": "من نحن",
+    "description": "سند إكسبرتس (SanadXperts) هي شركة رائدة متعددة التخصصات تقدم حلولاً متكاملة في المجالات المالية والتكنولوجية ورأس المال البشري للمؤسسات عبر مختلف القطاعات. نحن نمكن الشركات من تحقيق نمو مستدام وتميز تشغيلي وتحول رقمي من خلال محفظة شاملة من الخدمات الاستشارية والتنفيذية.",
+    "expertise": {
+      "title": "خبراتنا",
+      "financial": {
+        "title": "الخدمات المالية",
+        "content": "نقدم حلولاً مالية استراتيجية وتشغيلية مصممة لتعزيز الأداء وضمان الامتثال وتحقيق قيمة طويلة الأجل. تشمل خدماتنا: الاستشارات الاستثمارية وإدارة المحافظ، التخطيط المالي وإعادة الهيكلة، الاستشارات المصرفية والتقنيات المالية (Fintech)، استراتيجيات الشمول المالي والتحول المصرفي الرقمي، وإدارة المخاطر والامتثال التنظيمي."
+      },
+      "technology": {
+        "title": "الخدمات التكنولوجية",
+        "content": "نقدم حلولاً تقنية متطورة وقابلة للتوسع تمكن المؤسسات من الابتكار وتحسين العمليات والبقاء في صدارة المنافسة في المشهد الرقمي سريع التطور. تشمل خدماتنا: تطوير البرمجيات المخصصة، البنية التحتية السحابية وحلول التحول الرقمي، الأمن السيبراني وضمان المعلومات، إدارة البيانات والتحليلات وأنظمة ذكاء الأعمال، وتكامل الأنظمة الأساسية وهيكلية المؤسسات."
+      },
+      "hr": {
+        "title": "خدمات الموارد البشرية",
+        "content": "نبني أسساً تنظيمية قوية من خلال المواءمة بين الأشخاص والهيكل والاستراتيجية. تشمل خدماتنا: التصميم التنظيمي وهيكلة القوة العاملة، التعويضات والمنافع ومعايير الرواتب، أطر سياسات الموارد البشرية والحوكمة والامتثال، خدمات استقطاب المواهب والتوظيف، أنظمة التدريب والتطوير وإدارة الأداء، وعلاقات العمل المتوافقة مع قانون العمل العراقي رقم 37 لعام 2015."
+      }
     },
-    "en": {
-        "description": "A leading company in financial solutions, management consulting, and advanced technical services.",
-        "goal": "We aim to be the preferred strategic partner for sustainable growth.",
-        "principles": [
-            "Quality and excellence",
-            "Transparency and credibility",
-            "Innovation and continuous development"
-        ],
-        "achievements": {
-            "projects": "200+",
-            "experience": "10+",
-            "clients": "50+",
-            "satisfaction": "95%"
-        }
+    "approach": {
+      "title": "منهجنا",
+      "content": "في سند إكسبرتس، نجمع بين المعرفة العميقة بالصناعة، والخبرة في السوق المحلية، وأفضل الممارسات الدولية لتقديم حلول مخصصة عملية وقابلة للتوسع وموجهة نحو النتائج. يضمن نهجنا المتكامل المواءمة بين الاستراتيجية المالية والقدرة التكنولوجية ورأس المال البشري."
+    },
+    "why_us": {
+      "title": "لماذا سند إكسبرتس؟",
+      "items": [
+        "خدمات متكاملة وحلول شاملة تحت سقف واحد",
+        "خبرة قوية في السوق العراقية والمشهد التنظيمي",
+        "التركيز على الابتكار والكفاءة والنتائج الملموسة",
+        "شريك موثوق للمؤسسات في القطاعين العام والخاص"
+      ]
+    },
+    "commitment": {
+      "title": "التزامنا",
+      "content": "نحن ملتزمون بتقديم التميز، وتعزيز الشراكات طويلة الأمد، وتمكين عملائنا من الازدهار في بيئة تزداد تعقيداً وتنافسية."
     }
+  },
+  "en": {
+    "title": "About Us",
+    "description": "SanadXperts is a leading multidisciplinary firm delivering integrated financial, technology, and human capital solutions to organizations across diverse industries. We empower businesses to achieve sustainable growth, operational excellence, and digital transformation through a comprehensive portfolio of advisory and execution services.",
+    "expertise": {
+      "title": "Our Expertise",
+      "financial": {
+        "title": "Financial Services",
+        "content": "We provide strategic and operational financial solutions designed to enhance performance, ensure compliance, and drive long-term value. Our services include: investment advisory and portfolio management, financial planning and restructuring, banking and fintech consultancy, financial inclusion strategies and digital banking transformation, risk management and regulatory compliance."
+      },
+      "technology": {
+        "title": "Technology Services",
+        "content": "We deliver advanced, scalable technology solutions that enable organizations to innovate, optimize operations, and stay competitive in a rapidly evolving digital landscape. Our services include: custom software development, cloud infrastructure and digital transformation solutions, cybersecurity and information assurance, data management, analytics, and business intelligence systems, core systems integration and enterprise architecture."
+      },
+      "hr": {
+        "title": "Human Resources Services",
+        "content": "We build strong organizational foundations by aligning people, structure, and strategy. Our services include: organizational design and workforce structuring, compensation, benefits, and salary benchmarking, HR policies, governance, and compliance frameworks, talent acquisition and recruitment services, training, development, and performance management systems, labor relations aligned with Iraqi Labor Law No. 37 of 2015."
+      }
+    },
+    "approach": {
+      "title": "Our Approach",
+      "content": "At SanadXperts, we combine deep industry knowledge, local market expertise, and international best practices to deliver tailored solutions that are practical, scalable, and results-driven. Our integrated approach ensures alignment between financial strategy, technological capability, and human capital."
+    },
+    "why_us": {
+      "title": "Why SanadXperts",
+      "items": [
+        "End-to-end integrated services under one roof",
+        "Strong expertise in the Iraqi market and regulatory landscape",
+        "Focus on innovation, efficiency, and measurable results",
+        "Trusted partner for both public and private sector organizations"
+      ]
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "content": "We are committed to delivering excellence, fostering long-term partnerships, and enabling our clients to thrive in an increasingly complex and competitive environment."
+    }
+  }
 }

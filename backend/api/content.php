@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 }
 
 // أنواع المحتوى المسموح بها
-$allowedTypes = ['services', 'about', 'projects', 'static', 'settings', 'jobs', 'layout'];
+$allowedTypes = ['services', 'about', 'projects', 'static', 'settings', 'jobs', 'layout', 'financial', 'technology', 'management'];
 
 $type = isset($_GET['type']) ? preg_replace('/[^a-z_]/i', '', $_GET['type']) : '';
 $lang = isset($_GET['lang']) ? strtolower(preg_replace('/[^a-z]/i', '', $_GET['lang'])) : 'ar';

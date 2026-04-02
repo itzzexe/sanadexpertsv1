@@ -58,10 +58,22 @@ export async function getSettings(lang = 'ar') {
   }
 }
 
+export async function getContentByType(type, lang = 'ar') {
+  try {
+    const res = await fetch(`${PHP_API_BASE_URL}/content.php?type=${type}&lang=${lang}`);
+    const data = await res.json();
+    return data?.ok ? data.data : null;
+  } catch (err) {
+    console.error(`Error fetching content type ${type}:`, err);
+    return null;
+  }
+}
+
 export default {
   getServices,
   getAbout,
   getProjects,
   getStaticContent,
-  getSettings
+  getSettings,
+  getContentByType
 };

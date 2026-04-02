@@ -34,6 +34,9 @@ $map = [
     'settings' => $baseDir . 'settings.json',
     'jobs' => $baseDir . 'jobs.json',
     'layout' => $baseDir . 'layout.json',
+    'financial' => $baseDir . 'financial.json',
+    'technology' => $baseDir . 'technology.json',
+    'management' => $baseDir . 'management.json',
 ];
 
 if (!isset($map[$type])) {

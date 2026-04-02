@@ -1,0 +1,194 @@
+{
+  "ar": {
+    "title": "خدمات الموارد البشرية",
+    "subtitle": "نبني قوتك العاملة معاً",
+    "description": "سواء كنت تبدأ من الصفر أو تقوم بتحسين هيكل الموارد البشرية الحالي لديك، فإن سند إكسبرتس هي شريكك الموثوق لبناء مؤسسة عالية الأداء. تواصل معنا اليوم لتحويل وظيفة الموارد البشرية إلى ميزة استراتيجية.",
+    "services": [
+      {
+        "name": "تصميم الهيكل التنظيمي والمخططات",
+        "description": "تصميم هياكل تنظيمية واضحة وقابلة للتوسع تتماشى مع استراتيجية عملك.",
+        "features": [
+          "مخططات تنظيمية كاملة",
+          "تحديد الأدوار وخطوط الإبلاغ",
+          "الأوصاف الوظيفية لجميع المناصب",
+          "هيكلة الأقسام بما يتماشى مع أفضل الممارسات"
+        ]
+      },
+      {
+        "name": "سلم الرواتب والمواءمة مع السوق",
+        "description": "نساعدك على البقاء تنافسياً من خلال قياس الرواتب ومعايير السوق العراقي.",
+        "features": [
+          "تحليل مقارنة الرواتب (Benchmarking)",
+          "أطر تدرج الوظائف والمستويات",
+          "تصميم هيكل الأجور",
+          "تحقيق العدالة الداخلية"
+        ]
+      },
+      {
+        "name": "تصميم التعويضات والمنافع",
+        "description": "إنشاء حزم تعويضات تجذب الموظفين وتحفزهم وتحافظ عليهم.",
+        "features": [
+          "استراتيجية المكافآت الإجمالية",
+          "خطط الحوافز والمكافآت",
+          "هيكل المزايا (التأمين، البدلات، إلخ)",
+          "نماذج التعويضات المرتبطة بالأداء"
+        ]
+      },
+      {
+        "name": "سياسات وإجراءات الموارد البشرية",
+        "description": "تطوير أطر عمل شاملة تتماشى مع المعايير الدولية واللوائح المحلية.",
+        "features": [
+          "أدلة سياسات الموارد البشرية",
+          "إجراءات التشغيل القياسية (SOPs)",
+          "كتيبات الموظفين",
+          "أطر الحوكمة والامتثال"
+        ]
+      },
+      {
+        "name": "خدمات التوظيف والاستقطاب",
+        "description": "نعمل كشريك توظيف موثوق، ونقدم حلولاً متكاملة لتوفير الكفاءات.",
+        "features": [
+          "البحث عن الكفاءات وفحصها",
+          "إدارة المقابلات",
+          "تقييمات ما قبل التوظيف",
+          "التوظيف الخارجي (نموذج وكالة التوظيف)",
+          "البحث التنفيذي واصطياد الكفاءات"
+        ]
+      },
+      {
+        "name": "التدريب والتطوير",
+        "description": "تمكين قوتك العاملة بالمهارات اللازمة للنجاح.",
+        "features": [
+          "برامج تدريبية مخصصة",
+          "تطوير القيادة",
+          "التدريب على المهارات الفنية والناعمة",
+          "ورش العمل وجلسات بناء القدرات"
+        ]
+      },
+      {
+        "name": "إدارة وتقييم الأداء",
+        "description": "تصميم أنظمة تعزز الأداء والمساءلة.",
+        "features": [
+          "أطر مؤشرات الأداء الرئيسية (KPIs)",
+          "أنظمة تقييم الأداء",
+          "أدوات تقييم الموظفين",
+          "عمليات التحسين المستمر"
+        ]
+      },
+      {
+        "name": "علاقات العمل والامتثال القانوني",
+        "description": "ضمان عمل مؤسستك في امتثال تام للوائح العمل العراقية، بما في ذلك قانون العمل العراقي رقم 37 لعام 2015.",
+        "features": [
+          "تدقيق الامتثال لقانون العمل",
+          "عقود العمل والوثائق القانونية",
+          "إجراءات التاديب والتظلم",
+          "إدارة علاقات الموظفين",
+          "الاستشارات القانونية للموارد البشرية"
+        ]
+      }
+    ],
+    "benefits": [
+      "فهم عميق وتحليلي للسوق العراقي",
+      "المواءمة مع القوانين المحلية والمعايير الدولية",
+      "حلول عملية وقابلة للتطبيق الفوري",
+      "استشاريون ذوو خبرة واسعة في الموارد البشرية",
+      "دعم متكامل من مرحلة الاستراتيجية إلى التنفيذ"
+    ]
+  },
+  "en": {
+    "title": "Our HR Services",
+    "subtitle": "Let’s Build Your Workforce Together",
+    "description": "Whether you are starting from scratch or optimizing your current HR structure, SanadXperts is your trusted partner for building a high-performing organization. Contact us today to transform your HR function into a strategic advantage.",
+    "services": [
+      {
+        "name": "Organizational Structure & Org Chart Design",
+        "description": "We design clear and scalable organizational structures that align with your business strategy.",
+        "features": [
+          "Complete organizational charts",
+          "Role definitions and reporting lines",
+          "Job descriptions for all positions",
+          "Departmental structuring aligned with best practices"
+        ]
+      },
+      {
+        "name": "Salary Scale & Market Alignment",
+        "description": "We help you stay competitive by benchmarking salaries against the Iraqi market.",
+        "features": [
+          "Salary benchmarking analysis",
+          "Grading and job leveling frameworks",
+          "Pay structure design",
+          "Internal equity alignment"
+        ]
+      },
+      {
+        "name": "Compensation & Benefits Design",
+        "description": "We create compensation packages that attract, retain, and motivate employees.",
+        "features": [
+          "Total rewards strategy",
+          "Incentive and bonus schemes",
+          "Benefits structure (health, allowances, etc.)",
+          "Performance-linked compensation models"
+        ]
+      },
+      {
+        "name": "HR Policies & Procedures",
+        "description": "We develop comprehensive HR frameworks aligned with international standards and local regulations.",
+        "features": [
+          "HR policy manuals",
+          "Standard Operating Procedures (SOPs)",
+          "Employee handbooks",
+          "Governance and compliance frameworks"
+        ]
+      },
+      {
+        "name": "Recruitment & Staffing Services",
+        "description": "We act as your trusted recruitment partner, providing full staffing solutions.",
+        "features": [
+          "Talent sourcing and screening",
+          "Interview management",
+          "Pre-employment assessments",
+          "Outsourced recruitment (staffing agency model)",
+          "Executive search and headhunting"
+        ]
+      },
+      {
+        "name": "Training & Development",
+        "description": "We empower your workforce with the skills needed to succeed.",
+        "features": [
+          "Customized training programs",
+          "Leadership development",
+          "Technical and soft skills training",
+          "Workshops and capacity-building sessions"
+        ]
+      },
+      {
+        "name": "Performance Management & Evaluation",
+        "description": "We design systems that drive performance and accountability.",
+        "features": [
+          "KPI frameworks",
+          "Performance appraisal systems",
+          "Employee evaluation tools",
+          "Continuous improvement processes"
+        ]
+      },
+      {
+        "name": "Labor Relations & Compliance",
+        "description": "We ensure your organization operates in full compliance with Iraqi labor regulations, including alignment with Iraqi Labor Law No. 37 of 2015.",
+        "features": [
+          "Labor law compliance audits",
+          "Employment contracts and documentation",
+          "Disciplinary and grievance procedures",
+          "Employee relations management",
+          "Legal HR advisory"
+        ]
+      }
+    ],
+    "benefits": [
+      "Deep understanding of the Iraqi market",
+      "Alignment with local laws and international standards",
+      "Practical, implementable solutions",
+      "Experienced HR and business consultants",
+      "End-to-end support from strategy to execution"
+    ]
+  }
+}

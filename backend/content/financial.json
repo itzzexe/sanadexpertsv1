@@ -1,0 +1,108 @@
+{
+  "ar": {
+    "title": "الخدمات المالية والاستشارية",
+    "subtitle": "خدماتنا المالية والاستشارية",
+    "description": "نقدم خدمات مالية واستشارية شاملة تضمن الدقة والشفافية والنمو الاستراتيجي. خبرتنا تربط الممارسات المحلية بالمعايير الدولية مثل IFRS لتحقيق التميز.",
+    "benefits": [
+      "الالتزام بمعايير IFRS والمعايير العالمية",
+      "تحسين الشفافية المالية والحوكمة",
+      "الارتقاء بمستوى الجاهزية للتدقيق والامتثال",
+      "دعم القرارات الاستراتيجية ببيانات دقيقة"
+    ],
+    "services": [
+      {
+        "name": "المحاسبة ومسك الدفاتر",
+        "description": "سجلات مالية منظمة وموثوقة تتماشى مع المعايير الدولية",
+        "features": ["مسك الدفاتر وإدارة الأستاذ العام", "إغلاق نهاية الشهر", "التسويات"]
+      },
+      {
+        "name": "التقارير المالية والجاهزية للتدقيق",
+        "description": "ضمان الدقة والامتثال والجاهزية للتدقيق",
+        "features": ["القوائم المالية وفق IFRS", "دعم التدقيق", "أطر الرقابة المالية"]
+      },
+      {
+        "name": "الاستشارات المحاسبية و IFRS",
+        "description": "الربط بين الممارسات المحلية والمعايير الدولية",
+        "features": ["التحول إلى IFRS", "السياسات المحاسبية", "الاستشارات الفنية"]
+      },
+      {
+        "name": "الموازنة والتنبؤ المالي",
+        "description": "تعزيز الانضباط المالي والتخطيط المستقبلي",
+        "features": ["إعداد الموازنة", "التنبؤ المالي", "تحليل السيناريوهات"]
+      },
+      {
+        "name": "التحليل المالي وإدارة الأداء",
+        "description": "تحويل الأرقام إلى رؤى قابلة للتنفيذ",
+        "features": ["تطوير مؤشرات الأداء الرئيسية", "تحليل الربحية", "إعداد التقارير ولوحات المعلومات"]
+      },
+      {
+        "name": "دراسات الجدوى وتخطيط الأعمال",
+        "description": "دعم قرارات الاستثمار بتحليل قوي",
+        "features": ["دراسات الجدوى", "خطط الأعمال", "النمذجة المالية"]
+      },
+      {
+        "name": "استشارات المدير المالي والتحول المالي",
+        "description": "تعزيز الوظائف المالية والحوكمة",
+        "features": ["هيكلة القطاع المالي", "السياسات والإجراءات", "تحسين العمليات"]
+      },
+      {
+        "name": "الاستشارات المصرفية والتنظيمية",
+        "description": "خبرة متخصصة في المؤسسات المالية",
+        "features": ["كفاية رأس المال و ICAAP", "التقارير التنظيمية", "استشارات التمويل الإسلامي"]
+      }
+    ]
+  },
+  "en": {
+    "title": "Financial & Advisory Services",
+    "subtitle": "Our Financial & Advisory Services",
+    "description": "We provide comprehensive financial and advisory services that ensure accuracy, transparency, and strategic growth. Our expertise bridges local practices with international standards like IFRS to drive excellence.",
+    "benefits": [
+      "Adherence to IFRS and global standards",
+      "Improved financial transparency and governance",
+      "Enhanced audit readiness and compliance",
+      "Data-driven strategic decision support"
+    ],
+    "services": [
+      {
+        "name": "Accounting & Bookkeeping",
+        "description": "Structured, reliable financial records aligned with international standards",
+        "features": ["Bookkeeping and GL management", "Month-end closing", "Reconciliations"]
+      },
+      {
+        "name": "Financial Reporting & Audit Readiness",
+        "description": "Ensuring accuracy, compliance, and audit preparedness",
+        "features": ["IFRS financial statements", "Audit support", "Financial control frameworks"]
+      },
+      {
+        "name": "IFRS & Accounting Advisory",
+        "description": "Bridging local practices with international standards",
+        "features": ["IFRS conversion", "Accounting policies", "Technical advisory"]
+      },
+      {
+        "name": "Budgeting & Forecasting",
+        "description": "Driving financial discipline and forward planning",
+        "features": ["Budget preparation", "Financial forecasting", "Scenario analysis"]
+      },
+      {
+        "name": "Financial Analysis & Performance Management",
+        "description": "Turning numbers into actionable insights",
+        "features": ["KPI development", "Profitability analysis", "Dashboard reporting"]
+      },
+      {
+        "name": "Feasibility Studies & Business Planning",
+        "description": "Supporting investment decisions with robust analysis",
+        "features": ["Feasibility studies", "Business plans", "Financial modeling"]
+      },
+      {
+        "name": "CFO Advisory & Financial Transformation",
+        "description": "Enhancing financial functions and governance",
+        "features": ["Finance structuring", "Policies & procedures", "Process optimization"]
+      },
+      {
+        "name": "Banking & Regulatory Advisory",
+        "description": "Specialized expertise in financial institutions",
+        "features": ["Capital adequacy & ICAAP", "Regulatory reporting", "Islamic finance advisory"]
+      }
+    ]
+  }
+}

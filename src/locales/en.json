@@ -287,56 +287,99 @@
       "cta": "Discover Our Services"
     },
     "consulting": {
-      "title": "Management Consulting and Human Resources",
-      "subtitle": "Integrated Strategic Solutions",
-      "description": "We provide specialized management consulting that helps your company achieve its strategic goals, attract top talent, and develop its operational performance with the highest standards of quality and professionalism.",
+      "title": "Our HR Services",
+      "subtitle": "Let’s Build Your Workforce Together",
+      "description": "Whether you are starting from scratch or optimizing your current HR structure, SanadXperts is your trusted partner for building a high-performing organization. Contact us today to transform your HR function into a strategic advantage.",
       "services": [
         {
-          "name": "Organizational & Talent Development",
-          "description": "Improving organizational structures and developing employee capabilities.",
+          "name": "Organizational Structure & Org Chart Design",
+          "description": "We design clear and scalable organizational structures that align with your business strategy.",
           "features": [
-            "Administrative Structuring & Strategy",
-            "Training Needs Analysis & Assessment",
-            "Corporate Governance & Change Management",
-            "Leadership Development Programs"
+            "Complete organizational charts",
+            "Role definitions and reporting lines",
+            "Job descriptions for all positions",
+            "Departmental structuring aligned with best practices"
           ]
         },
         {
-          "name": "Strategic Planning & Recruitment",
-          "description": "Mapping the roadmap for your company's future and attracting top talent.",
+          "name": "Salary Scale & Market Alignment",
+          "description": "We help you stay competitive by benchmarking salaries against the Iraqi market.",
           "features": [
-            "SWOT Analysis & Vision Crafting",
-            "Advanced Recruitment Processes",
-            "Performance Monitoring & Goal Setting",
-            "Candidate Screening & Assessment Methods"
+            "Salary benchmarking analysis",
+            "Grading and job leveling frameworks",
+            "Pay structure design",
+            "Internal equity alignment"
           ]
         },
         {
-          "name": "Project & Performance Management",
-          "description": "Executing projects with precision and measuring employee performance effectively.",
+          "name": "Compensation & Benefits Design",
+          "description": "We create compensation packages that attract, retain, and motivate employees.",
           "features": [
-            "PMO Office Establishment",
-            "Performance Measurement Systems",
-            "Risk Management & Quality Assurance",
-            "KPIs & Improvement Plans"
+            "Total rewards strategy",
+            "Incentive and bonus schemes",
+            "Benefits structure (health, allowances, etc.)",
+            "Performance-linked compensation models"
           ]
         },
         {
-          "name": "Digital Transformation & Compensation",
-          "description": "Adopting modern technologies and developing competitive compensation strategies.",
+          "name": "HR Policies & Procedures",
+          "description": "We develop comprehensive HR frameworks aligned with international standards and local regulations.",
           "features": [
-            "IT Strategy & ERP Implementation",
-            "Administrative Process Automation",
-            "Salary Structure & Incentive Design",
-            "Benefits Management & Market Analysis"
+            "HR policy manuals",
+            "Standard Operating Procedures (SOPs)",
+            "Employee handbooks",
+            "Governance and compliance frameworks"
+          ]
+        },
+        {
+          "name": "Recruitment & Staffing Services",
+          "description": "We act as your trusted recruitment partner, providing full staffing solutions.",
+          "features": [
+            "Talent sourcing and screening",
+            "Interview management",
+            "Pre-employment assessments",
+            "Outsourced recruitment (staffing agency model)",
+            "Executive search and headhunting"
+          ]
+        },
+        {
+          "name": "Training & Development",
+          "description": "We empower your workforce with the skills needed to succeed.",
+          "features": [
+            "Customized training programs",
+            "Leadership development",
+            "Technical and soft skills training",
+            "Workshops and capacity-building sessions"
+          ]
+        },
+        {
+          "name": "Performance Management & Evaluation",
+          "description": "We design systems that drive performance and accountability.",
+          "features": [
+            "KPI frameworks",
+            "Performance appraisal systems",
+            "Employee evaluation tools",
+            "Continuous improvement processes"
+          ]
+        },
+        {
+          "name": "Labor Relations & Compliance",
+          "description": "We ensure your organization operates in full compliance with Iraqi labor regulations, including alignment with Iraqi Labor Law No. 37 of 2015.",
+          "features": [
+            "Labor law compliance audits",
+            "Employment contracts and documentation",
+            "Disciplinary and grievance procedures",
+            "Employee relations management",
+            "Legal HR advisory"
           ]
         }
       ],
       "benefits": [
-        "Improved administrative and operational efficiency by 35%",
-        "Increased employee satisfaction and retention rates",
-        "Clear strategic vision and leadership capabilities development",
-        "High adaptability and strong organizational culture"
+        "Deep understanding of the Iraqi market",
+        "Alignment with local laws and international standards",
+        "Practical, implementable solutions",
+        "Experienced HR and business consultants",
+        "End-to-end support from strategy to execution"
       ],
       "cta": "Discover Our Services"
     }

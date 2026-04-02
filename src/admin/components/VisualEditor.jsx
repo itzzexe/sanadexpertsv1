@@ -28,8 +28,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const SITE_PARTS = [
   { id: 'layout', label: 'بنية الصفحة وهيكلها', icon: <Layers size={18} />, file: 'layout' },
-  { id: 'static', label: 'القسم الرئيسي (Hero)', icon: <Layout size={18} />, file: 'static' },
-  { id: 'services', label: 'الخدمات والأقسام', icon: <Plus size={18} />, file: 'services' },
+  { id: 'static', label: 'القسم الرئيسي (Home)', icon: <Layout size={18} />, file: 'static' },
+  { id: 'financial', label: 'صفحة الاستشارات المالية', icon: <Palette size={18} />, file: 'financial' },
+  { id: 'technology', label: 'صفحة التكنولوجيا والابتكار', icon: <Plus size={18} />, file: 'technology' },
+  { id: 'management', label: 'صفحة الإدارة والموارد البشرية', icon: <Edit2 size={18} />, file: 'management' },
+  { id: 'services', label: 'بطاقات الخدمات (Home)', icon: <Layers size={18} />, file: 'services' },
   { id: 'about', label: 'محتوى "من نحن"', icon: <Edit2 size={18} />, file: 'about' },
   { id: 'projects', label: 'معرض المشاريع', icon: <ImageIcon size={18} />, file: 'projects' },
   { id: 'settings', label: 'التذييل والمعلومات', icon: <Settings size={18} />, file: 'settings' }
@@ -111,6 +114,62 @@ export default function VisualEditor() {
     }
   };
 
+  const renderServiceDetailEditor = (content) => {
+    return (
+      <div className="builder-group">
+        <h5>محتوى الصفحة</h5>
+        <div className="field">
+          <label>العنوان الأساسي</label>
+          <input value={content.title || ''} onChange={e => handleFieldChange('title', e.target.value)} />
+        </div>
+        <div className="field">
+          <label>العنوان الفرعي</label>
+          <input value={content.subtitle || ''} onChange={e => handleFieldChange('subtitle', e.target.value)} />
+        </div>
+        <div className="field">
+          <label>الوصف العام</label>
+          <textarea value={content.description || ''} onChange={e => handleFieldChange('description', e.target.value)} />
+        </div>
+
+        <h6>الخدمات التفصيلية</h6>
+        {(content.services || []).map((serv, idx) => (
+          <div key={idx} className="glass-card p-3 mb-2 border">
+            <div className="d-flex justify-content-between align-items-center mb-2">
+              <strong>خدمة #{idx + 1}</strong>
+              <button 
+                className="btn-danger-icon"
+                onClick={() => {
+                  const s = [...content.services];
+                  s.splice(idx, 1);
+                  handleFieldChange('services', s);
+                }}
+              >
+                <Trash2 size={14} />
+              </button>
+            </div>
+            <div className="field">
+              <label>الاسم</label>
+              <input value={serv.name || ''} onChange={e => handleFieldChange('services', e.target.value, idx, 'name')} />
+            </div>
+            <div className="field">
+              <label>الوصف</label>
+              <textarea value={serv.description || ''} onChange={e => handleFieldChange('services', e.target.value, idx, 'description')} />
+            </div>
+          </div>
+        ))}
+        <button 
+          className="btn-add-full"
+          onClick={() => {
+            const s = [...(content.services || []), { name: 'خدمة جديدة', description: '', features: [] }];
+            handleFieldChange('services', s);
+          }}
+        >
+          <Plus size={14} /> إضافة خدمة تفصيلية
+        </button>
+      </div>
+    );
+  };
+
   const renderSectionTools = () => {
     const content = (activePart === 'layout' ? data : data[lang]) || {};
 
@@ -133,6 +192,10 @@ export default function VisualEditor() {
             </div>
           </div>
         );
+      case 'financial':
+      case 'technology':
+      case 'management':
+        return renderServiceDetailEditor(content);
       case 'layout':
         return (
           <div className="builder-group">

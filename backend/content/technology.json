@@ -1,0 +1,68 @@
+{
+  "ar": {
+    "title": "التكنولوجيا والابتكار",
+    "subtitle": "حلول رقمية متطورة للتحول التقني",
+    "description": "نساعد مؤسستك على مواكبة التطور التقني من خلال حلول رقمية متطورة تحقق أهدافك التجارية بأحدث التقنيات والممارسات العالمية في مجال التكنولوجيا والابتكار",
+    "services": [
+      {
+        "name": "تطوير المواقع والتطبيقات",
+        "description": "تطوير حلول رقمية متقدمة وسهلة الاستخدام",
+        "features": ["تطوير المواقع الإلكترونية", "تطبيقات الهاتف المحمول", "أنظمة إدارة المحتوى", "التجارة الإلكترونية"]
+      },
+      {
+        "name": "التحول الرقمي",
+        "description": "مساعدة المؤسسات في رحلة التحول الرقمي الشامل",
+        "features": ["استراتيجية التحول الرقمي", "أتمتة العمليات", "التكامل مع الأنظمة", "التدريب والدعم"]
+      },
+      {
+        "name": "الذكاء الاصطناعي وتحليل البيانات",
+        "description": "استخدام الذكاء الاصطناعي لتحسين الأداء واتخاذ القرارات",
+        "features": ["تحليل البيانات الضخمة", "التعلم الآلي", "الذكاء الاصطناعي", "لوحات المعلومات التفاعلية"]
+      },
+      {
+        "name": "الأمن السيبراني",
+        "description": "حماية شاملة للأنظمة والبيانات من التهديدات السيبرانية",
+        "features": ["تقييم الأمان", "حماية البيانات", "مراقبة التهديدات", "خطط الاستجابة للحوادث"]
+      }
+    ],
+    "benefits": [
+      "تحسين الكفاءة التشغيلية بنسبة تصل إلى 50%",
+      "تقليل التكاليف وزيادة الإنتاجية",
+      "تحسين تجربة العملاء والمستخدمين",
+      "الحصول على ميزة تنافسية في السوق"
+    ]
+  },
+  "en": {
+    "title": "Technology and Innovation",
+    "subtitle": "Advanced digital solutions for technological transformation",
+    "description": "We help your organization keep pace with technological advancement through advanced digital solutions that achieve your business goals using the latest technologies and global practices in technology and innovation",
+    "services": [
+      {
+        "name": "Website and Application Development",
+        "description": "Developing advanced and user-friendly digital solutions",
+        "features": ["Website development", "Mobile applications", "Content management systems", "E-commerce solutions"]
+      },
+      {
+        "name": "Digital Transformation",
+        "description": "Helping organizations in their comprehensive digital transformation journey",
+        "features": ["Digital transformation strategy", "Process automation", "System integration", "Training and support"]
+      },
+      {
+        "name": "Artificial Intelligence and Data Analysis",
+        "description": "Using artificial intelligence to improve performance and decision making",
+        "features": ["Big data analysis", "Machine learning", "Artificial intelligence", "Interactive dashboards"]
+      },
+      {
+        "name": "Cybersecurity",
+        "description": "Comprehensive protection for systems and data from cyber threats",
+        "features": ["Security assessment", "Data protection", "Threat monitoring", "Incident response plans"]
+      }
+    ],
+    "benefits": [
+      "Improved operational efficiency by up to 50%",
+      "Reduced costs and increased productivity",
+      "Enhanced customer and user experience",
+      "Gaining competitive advantage in the market"
+    ]
+  }
+}

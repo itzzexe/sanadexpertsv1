@@ -15,6 +15,8 @@ const Footer = lazy(() => import('./components/Footer'));
 const FinancialConsulting = lazy(() => import('./pages/FinancialConsulting'));
 const TechInnovation = lazy(() => import('./pages/TechInnovation'));
 const ManagementHR = lazy(() => import('./pages/ManagementHR'));
+const AboutPage = lazy(() => import('./pages/AboutPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage'));
 const BackToTop = lazy(() => import('./components/BackToTop'));
 const DocumentSEO = lazy(() => import('./components/DocumentSEO'));
 const AvailableJobs = lazy(() => import('./components/AvailableJobs'));
@@ -26,12 +28,11 @@ const componentMap = {
   services: Services,
   work_process: WorkProcess,
   why_us: WhyUs,
-  about: About,
-  contact: Contact
+  about: About
 };
 
 const DynamicHome = () => {
-  const [layout, setLayout] = useState(['hero', 'services', 'work_process', 'why_us', 'about', 'contact']);
+  const [layout, setLayout] = useState(['hero', 'services', 'work_process', 'why_us']);
   
   useEffect(() => {
     // Fetch layout from backend
@@ -39,7 +40,9 @@ const DynamicHome = () => {
       .then(res => res.json())
       .then(json => {
         if (json.ok && json.data?.homepage) {
-          setLayout(json.data.homepage);
+          // Filter out Sections that are now separate pages
+          const filtered = json.data.homepage.filter(id => id !== 'about' && id !== 'contact');
+          setLayout(filtered);
         }
       })
       .catch(err => console.error('Failed to load layout:', err));
@@ -72,6 +75,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<DynamicHome />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/financial-consulting" element={<FinancialConsulting />} />
           <Route path="/technology-innovation" element={<TechInnovation />} />
           <Route path="/management-consulting-hr" element={<ManagementHR />} />

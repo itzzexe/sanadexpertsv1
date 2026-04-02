@@ -115,14 +115,14 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <button className="nav-link" onClick={() => handleNavClick('about')}>
+              <Link to="/about" className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}>
                 {t('nav.about')}
-              </button>
+              </Link>
             </li>
             <li>
-              <button className="nav-link" onClick={() => handleNavClick('contact')}>
+              <Link to="/contact" className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}>
                 {t('nav.contact')}
-              </button>
+              </Link>
             </li>
             <li>
               <Link to="/management-consulting-hr#join-us-section" className="nav-link">

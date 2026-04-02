@@ -2,17 +2,31 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { CheckCircle, ArrowRight, ChevronRight } from 'lucide-react';
+import { getContentByType } from '../services/cmsService';
 import DocumentSEO from './DocumentSEO';
 import './ServicePageTemplate.css';
 
 const ServicePageTemplate = ({ serviceKey, seoKey, children }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [cmsData, setCmsData] = React.useState(null);
   
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    
+    // Fetch from CMS
+    const typeMap = {
+      'financial': 'financial',
+      'technology': 'technology',
+      'consulting': 'management'
+    };
+    
+    (async () => {
+      const data = await getContentByType(typeMap[serviceKey] || serviceKey, i18n.language);
+      if (data) setCmsData(data);
+    })();
+  }, [serviceKey, i18n.language]);
 
-  const service = t(`services.${serviceKey}`, { returnObjects: true });
+  const service = cmsData || t(`services.${serviceKey}`, { returnObjects: true });
 
   return (
     <div className="service-page">
