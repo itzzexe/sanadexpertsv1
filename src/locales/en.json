@@ -1,0 +1,425 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "services": "Services",
+    "careers": "Careers"
+  },
+  "hero": {
+    "title": "Sanad Experts",
+    "subtitle": "A leading company in financial solutions, management consulting, and advanced technical services",
+    "cta": "Discover Our Services"
+  },
+  "about": {
+    "title": "About Us",
+    "company_name": "Sanad Experts",
+    "description": "A leading company in financial solutions, management consulting, and advanced technical services. We provide integrated financial solutions including investment management, financial planning, and banking consultancy. We also offer specialized management consulting in business development, project management, and digital transformation. Additionally, we provide advanced technical services including software development, cloud solutions, and data management systems.",
+    "principles_title": "Our Core Values",
+    "principles_subtitle": "The values that guide our vision towards excellence",
+    "principles": [
+      {
+        "title": "Quality",
+        "description": "Delivering services that consistently exceed expectations in every project we undertake."
+      },
+      {
+        "title": "Innovation",
+        "description": "Continuously striving for development and integrating the latest global technologies."
+      },
+      {
+        "title": "Client Priority",
+        "description": "Providing exceptional customer service with a precise focus on fulfilling client needs."
+      }
+    ],
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower businesses with cutting-edge financial and technical solutions that drive sustainable excellence."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the global benchmark for excellence in management consulting and digital transformation."
+    },
+    "goal": {
+      "title": "Our Goal",
+      "content": "We aim to be the preferred strategic partner for companies and institutions in their journey towards sustainable growth and development."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "get_in_touch": "Get in Touch",
+    "description": "We are here to help you. Contact us to discuss your needs and requirements.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Iraq - Baghdad - Al-Adhamiya - Ad-Dallal Square - Opposite Alf Leila Wa Leila - 4th Floor",
+    "address_title": "Headquarters",
+    "address_link": "https://maps.app.goo.gl/y23QMbR1NpaztrGS7",
+    "working_hours": "Working Hours",
+    "address_details": [
+      "Iraq - Baghdad - Al-Adhamiya - Ad-Dallal Square - Opposite Alf Leila Wa Leila - 4th Floor"
+    ],
+    "working_hours_details": [
+      "Saturday - Thursday: 9:00 AM - 5:00 PM"
+    ],
+    "send_message": "Send Message",
+    "journey_title": "Start Your Journey to Success with Us",
+    "journey_description": "We are here to help you achieve your goals. Contact us today and get a free consultation to achieve excellence and sustainable growth in the modern business world",
+    "book_consultation": "Contact Us",
+    "form_description": "Fill out the form and we will contact you within 24 hours",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "select_service": "Select Service",
+      "other": "Other",
+      "subject": "Subject",
+      "message": "Message",
+      "message_placeholder": "Write your message here...",
+      "attachment": "Attachment (Optional)",
+      "choose_file": "Choose File",
+      "no_file_chosen": "No file chosen",
+      "send": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again later."
+    }
+  },
+  "footer": {
+    "tagline": "Your partner in success and excellence",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Information",
+    "rights": "All rights reserved",
+    "follow_us": "Follow Us",
+    "our_services": "Our Services",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms & Conditions",
+    "designed_with_care": "Designed with exceptional care",
+    "privacy": {
+      "intro": "SANADXPERTS is committed to protecting your privacy and the security of your personal data. This Privacy Policy explains what information we collect, how we use it, and how we protect it when you interact with our website or services. Last updated: February 2026.",
+      "data_collection_title": "1. Information We Collect",
+      "data_collection": "We collect information you voluntarily provide through our contact and recruitment forms, including: your full name, email address, phone number, selected service, message content, and CV or cover letter. We also automatically collect limited technical data such as your IP address and browser type for security and operational purposes only.",
+      "use_title": "2. How We Use Your Information",
+      "use": "Your data is used exclusively for: responding to your inquiries and requests, delivering the consulting services you have requested, reviewing job applications and notifying you of outcomes, and sending updates relevant to services you have requested. We will not use your information for commercial or marketing purposes without your explicit prior consent.",
+      "sharing_title": "3. Data Sharing with Third Parties",
+      "sharing": "We do not sell or share your personal data with any third parties except in the following necessary circumstances: compliance with legal orders or judicial directives issued by competent authorities, or where required to deliver a service in collaboration with trusted partners who maintain equivalent data protection standards.",
+      "security_title": "4. Data Security",
+      "security": "We implement appropriate technical and organizational security measures to protect your data from unauthorized access, loss, or disclosure. Data is stored on secured servers and is only accessible by authorized personnel on a need-to-know basis.",
+      "retention_title": "5. Data Retention",
+      "retention": "We retain your data only for as long as necessary to fulfill the purpose for which it was collected. Contact form data is retained for a maximum of one year. Recruitment application data is retained for six months unless otherwise specified.",
+      "rights_title": "6. Your Rights",
+      "rights": "You have the right at any time to: access the personal data we hold about you, request its correction or update, request its deletion in full or in part, or withdraw your consent to its processing. To exercise these rights, please contact us via the email address below.",
+      "cookies_title": "7. Cookies",
+      "cookies": "Our website uses strictly necessary cookies to ensure the site functions properly and to improve your browsing experience. We do not use advertising or tracking cookies. You may adjust your browser settings at any time to refuse or delete cookies, though this may affect some site functionality.",
+      "contact_title": "8. Privacy Contact",
+      "contact_text": "For any questions or requests regarding this Privacy Policy or your personal data, please contact us at:"
+    },
+    "terms": {
+      "intro": "Welcome to the SANADXPERTS website. By accessing or using this website or any of our services, you confirm that you have read, understood, and agree to be bound by these Terms & Conditions in full. If you do not agree to these terms, please discontinue use of this website.",
+      "services_title": "1. Description of Services",
+      "services": "SANADXPERTS provides specialized consulting services including management consulting, financial solutions, and technology solutions. Services are delivered under separate agreements with each client. Content published on this website is for general informational purposes only and does not constitute formal professional advice.",
+      "acceptable_use_title": "2. Acceptable Use of the Website",
+      "acceptable_use": "You agree to use this website for lawful purposes only. The following are strictly prohibited: attempting to gain unauthorized access to any part of the website or our systems, posting or transmitting harmful, misleading, or offensive content, using the website for unauthorized commercial purposes, and infringing upon the intellectual property rights of any party.",
+      "ip_title": "3. Intellectual Property",
+      "ip": "All content published on this website, including but not limited to text, images, logos, designs, and videos, is the exclusive property of SANADXPERTS and is protected under applicable intellectual property laws. No party may reproduce, distribute, or modify any of this content without prior written permission from SANADXPERTS.",
+      "liability_title": "4. Limitation of Liability",
+      "liability": "SANADXPERTS shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of, or inability to use, this website or any information contained herein. The company does not guarantee uninterrupted access to the website or that it will be entirely free of technical errors.",
+      "disclaimer_title": "5. Content Disclaimer",
+      "disclaimer": "We make every effort to provide accurate and up-to-date information. However, we do not guarantee the completeness or accuracy of information at all times. Content on this website is intended for general informational purposes and is not a substitute for direct professional consultation.",
+      "governing_law_title": "6. Governing Law & Jurisdiction",
+      "governing_law": "These Terms & Conditions shall be governed by and construed in accordance with the laws of the Republic of Iraq. In the event of any dispute arising out of or relating to these Terms or use of the website, the competent courts of the Republic of Iraq shall have exclusive jurisdiction to settle such disputes.",
+      "changes_title": "7. Amendments to Terms",
+      "changes": "SANADXPERTS reserves the right to amend these Terms & Conditions at any time without prior notice. Your continued use of the website following the posting of amendments constitutes your acceptance of the revised terms. We recommend reviewing this page periodically to stay informed of any updates.",
+      "contact_title": "8. Contact",
+      "contact_text": "If you have any questions about these Terms & Conditions, we would be happy to hear from you at:"
+    }
+  },
+  "services": {
+    "title": "Comprehensive consulting solutions that meet your organization's needs",
+    "subtitle": "Our Specialized Services",
+    "financial": {
+      "title": "Financial Consulting",
+      "subtitle": "Professional financial consulting for sustainable growth",
+      "description": "We provide comprehensive financial consulting services to help you achieve your investment goals and improve financial performance through strategic planning and advanced analysis using the latest financial tools and methodologies",
+      "features": [
+        "Strategic financial planning",
+        "Investment portfolio management",
+        "Advanced financial analysis",
+        "Financing and funding consultations"
+      ],
+      "services": [
+        {
+          "name": "Strategic Financial Planning",
+          "description": "Comprehensive financial planning to achieve long-term goals",
+          "features": [
+            "Financial goal setting",
+            "Budget planning and management",
+            "Cash flow analysis",
+            "Risk assessment and management"
+          ]
+        },
+        {
+          "name": "Investment Portfolio Management",
+          "description": "Professional management of investment portfolios for optimal returns",
+          "features": [
+            "Investment strategy development",
+            "Portfolio diversification",
+            "Performance monitoring",
+            "Risk management"
+          ]
+        },
+        {
+          "name": "Advanced Financial Analysis",
+          "description": "In-depth financial analysis for informed decision making",
+          "features": [
+            "Financial statement analysis",
+            "Market research and analysis",
+            "Feasibility studies",
+            "Financial modeling"
+          ]
+        },
+        {
+          "name": "Financing Consultations",
+          "description": "Expert guidance on financing options and funding strategies",
+          "features": [
+            "Funding source identification",
+            "Loan application assistance",
+            "Investment opportunity evaluation",
+            "Financial restructuring"
+          ]
+        }
+      ],
+      "benefits": [
+        "Improved return on investment by up to 25%",
+        "Reduced financial risks and enhanced stability",
+        "Better financial decision making",
+        "Achieving sustainable financial growth"
+      ],
+      "cta": "Discover Our Services"
+    },
+    "technology": {
+      "title": "Technology and Innovation",
+      "subtitle": "Advanced digital solutions for technological transformation",
+      "description": "We help your organization keep pace with technological advancement through advanced digital solutions that achieve your business goals using the latest technologies and global practices in technology and innovation",
+      "features": [
+        "Website and application development",
+        "Digital transformation for organizations",
+        "Artificial intelligence and data analysis",
+        "Cybersecurity and protection"
+      ],
+      "services": [
+        {
+          "name": "Website and Application Development",
+          "description": "Developing advanced and user-friendly digital solutions",
+          "features": [
+            "Website development",
+            "Mobile applications",
+            "Content management systems",
+            "E-commerce solutions"
+          ]
+        },
+        {
+          "name": "Digital Transformation",
+          "description": "Helping organizations in their comprehensive digital transformation journey",
+          "features": [
+            "Digital transformation strategy",
+            "Process automation",
+            "System integration",
+            "Training and support"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence and Data Analysis",
+          "description": "Using artificial intelligence to improve performance and decision making",
+          "features": [
+            "Big data analysis",
+            "Machine learning",
+            "Artificial intelligence",
+            "Interactive dashboards"
+          ]
+        },
+        {
+          "name": "Cybersecurity",
+          "description": "Comprehensive protection for systems and data from cyber threats",
+          "features": [
+            "Security assessment",
+            "Data protection",
+            "Threat monitoring",
+            "Incident response plans"
+          ]
+        }
+      ],
+      "benefits": [
+        "Improved operational efficiency by up to 50%",
+        "Reduced costs and increased productivity",
+        "Enhanced customer and user experience",
+        "Gaining competitive advantage in the market"
+      ],
+      "cta": "Discover Our Services"
+    },
+    "consulting": {
+      "title": "Management Consulting and Human Resources",
+      "subtitle": "Integrated Strategic Solutions",
+      "description": "We provide specialized management consulting that helps your company achieve its strategic goals, attract top talent, and develop its operational performance with the highest standards of quality and professionalism.",
+      "services": [
+        {
+          "name": "Organizational & Talent Development",
+          "description": "Improving organizational structures and developing employee capabilities.",
+          "features": [
+            "Administrative Structuring & Strategy",
+            "Training Needs Analysis & Assessment",
+            "Corporate Governance & Change Management",
+            "Leadership Development Programs"
+          ]
+        },
+        {
+          "name": "Strategic Planning & Recruitment",
+          "description": "Mapping the roadmap for your company's future and attracting top talent.",
+          "features": [
+            "SWOT Analysis & Vision Crafting",
+            "Advanced Recruitment Processes",
+            "Performance Monitoring & Goal Setting",
+            "Candidate Screening & Assessment Methods"
+          ]
+        },
+        {
+          "name": "Project & Performance Management",
+          "description": "Executing projects with precision and measuring employee performance effectively.",
+          "features": [
+            "PMO Office Establishment",
+            "Performance Measurement Systems",
+            "Risk Management & Quality Assurance",
+            "KPIs & Improvement Plans"
+          ]
+        },
+        {
+          "name": "Digital Transformation & Compensation",
+          "description": "Adopting modern technologies and developing competitive compensation strategies.",
+          "features": [
+            "IT Strategy & ERP Implementation",
+            "Administrative Process Automation",
+            "Salary Structure & Incentive Design",
+            "Benefits Management & Market Analysis"
+          ]
+        }
+      ],
+      "benefits": [
+        "Improved administrative and operational efficiency by 35%",
+        "Increased employee satisfaction and retention rates",
+        "Clear strategic vision and leadership capabilities development",
+        "High adaptability and strong organizational culture"
+      ],
+      "cta": "Discover Our Services"
+    }
+  },
+  "common": {
+    "read_more": "Read More",
+    "learn_more": "Learn More",
+    "back_to_home": "Back to Home",
+    "language": "Language",
+    "discover_more": "Discover More"
+  },
+  "whatsapp": {
+    "message": "Hello, I would like to inquire about your services",
+    "title": "Contact us via WhatsApp"
+  },
+  "language_toggle": {
+    "arabic": "AR"
+  },
+  "service_detail": {
+    "specialized_services": "Our Specialized Services",
+    "expected_benefits": "Expected Benefits",
+    "ready_to_start": "Are You Ready to Get Started?",
+    "contact_description": "Contact us today for a free consultation and a customized plan for your needs",
+    "contact_now": "Contact Us Now"
+  },
+  "recruitment": {
+    "title": "Careers",
+    "subtitle": "Send your CV and we will help you find the right opportunity",
+    "description": "Fill in your information and attach your CV. Our team will match your profile to suitable opportunities.",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "experience": "Years of Experience",
+      "role": "Target Role",
+      "cv": "CV",
+      "cover_letter": "Cover Letter"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "example@email.com",
+      "phone": "07xxxxxxxx",
+      "experience": "e.g., 5 years in HR",
+      "role": "e.g., HR Officer",
+      "cover_letter": "Write a brief summary about yourself and your skills"
+    },
+    "submit": "Submit Application",
+    "sending": "Sending...",
+    "success": "Your application has been sent successfully! We will review your profile and contact you soon.",
+    "error": "An error occurred while sending. Please try again later.",
+    "available_jobs": "Available Jobs",
+    "apply_now": "Apply Now",
+    "job_details": "Job Details",
+    "no_jobs": "No current vacancies. You can still send your CV and we will contact you for future opportunities.",
+    "department": "Department",
+    "location": "Location",
+    "job_type": "Job Type"
+  },
+  "work_process": {
+    "title": "Methodology",
+    "subtitle": "How We Empower You",
+    "steps": [
+      {
+        "title": "Consultation",
+        "text": "We start by understanding your unique challenges and objectives through deep dialogue."
+      },
+      {
+        "title": "Strategy",
+        "text": "Our experts design a bespoke roadmap tailored to your specific business needs."
+      },
+      {
+        "title": "Innovation",
+        "text": "We implement cutting-edge solutions using the latest technologies and methodologies."
+      },
+      {
+        "title": "Execution",
+        "text": "Seamless delivery with continuous support to ensure long-term sustainable growth."
+      }
+    ]
+  },
+  "why_us": {
+    "title": "Exclusive Value",
+    "subtitle": "Why Choose us?",
+    "items": [
+      {
+        "title": "Strategy & Growth",
+        "text": "Proven track record in driving business growth through strategic planning."
+      },
+      {
+        "title": "Expert Team",
+        "text": "A diverse team of professionals with deep industry knowledge."
+      },
+      {
+        "title": "Global Reach",
+        "text": "Solutions that scale globally while maintaining local relevance."
+      },
+      {
+        "title": "Quality Assured",
+        "text": "Commitment to excellence in every project we undertake."
+      }
+    ]
+  },
+  "seo": {
+    "home": {
+      "title": "Sanad Experts - Management Consulting, Financial Solutions, & Tech Services",
+      "description": "Sanad Experts - A leading company in Adhamiya, Baghdad providing Financial Consulting, Tech Innovation, and Management Consulting & HR. Expert solutions for your business growth."
+    },
+    "recruitment": {
+      "title": "Careers - Join Sanad Experts Team",
+      "description": "We are always looking for creative talents. Submit your CV now and join an inspiring work environment that supports growth and innovation."
+    },
+    "available_jobs": {
+      "title": "Available Jobs - Sanad Experts",
+      "description": "Explore career opportunities at Sanad Experts and join our exceptional team."
+    },
+    "keywords": "management consulting, digital transformation, financial solutions, careers, Sanad Experts, Baghdad, Iraq"
+  }
+}

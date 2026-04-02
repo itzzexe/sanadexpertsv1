@@ -1,0 +1,45 @@
+{
+    "socialLinks": [
+        {
+            "name": "Facebook",
+            "url": "https://facebook.com/sanadxperts"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/sanadxperts"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/company/sanadxperts"
+        }
+    ],
+    "quickLinks": [
+        {
+            "name": "الرئيسية",
+            "href": "home"
+        },
+        {
+            "name": "من نحن",
+            "href": "about"
+        },
+        {
+            "name": "الخدمات",
+            "href": "services"
+        },
+        {
+            "name": "المشاريع",
+            "href": "projects"
+        },
+        {
+            "name": "اتصل بنا",
+            "href": "contact"
+        }
+    ],
+    "theme": {
+        "mode": "light",
+        "primaryColor": "#d4af37",
+        "accentColor": "#d4af37",
+        "textColor": "#000000",
+        "backgroundColor": "#ffffff"
+    }
+}

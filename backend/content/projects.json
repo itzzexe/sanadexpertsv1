@@ -1,0 +1,28 @@
+{
+    "ar": [
+        {
+            "id": 1,
+            "title": "مشروع نمو الأعمال",
+            "category": "استشارات",
+            "description": "تحسين الأداء المؤسسي وتطوير العمليات.",
+            "images": [
+                "/uploads/sample-project-1a.jpg",
+                "/uploads/sample-project-1b.jpg",
+                "/uploads/sample-project-1c.jpg"
+            ]
+        }
+    ],
+    "en": [
+        {
+            "id": 1,
+            "title": "Business Growth Project",
+            "category": "Consulting",
+            "description": "Improving organizational performance and optimizing processes.",
+            "images": [
+                "/uploads/sample-project-1a.jpg",
+                "/uploads/sample-project-1b.jpg",
+                "/uploads/sample-project-1c.jpg"
+            ]
+        }
+    ]
+}

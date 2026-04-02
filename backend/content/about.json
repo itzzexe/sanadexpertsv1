@@ -1,0 +1,32 @@
+{
+    "ar": {
+        "description": "شركة رائدة في الحلول المالية والاستشارات الإدارية والخدمات التقنية المتقدمة.",
+        "goal": "نسعى لأن نكون الشريك الاستراتيجي المفضل للنمو المستدام.",
+        "principles": [
+            "الجودة والتميز",
+            "الشفافية والمصداقية",
+            "الابتكار والتطوير المستمر"
+        ],
+        "achievements": {
+            "projects": "200+",
+            "experience": "10+",
+            "clients": "50+",
+            "satisfaction": "95%"
+        }
+    },
+    "en": {
+        "description": "A leading company in financial solutions, management consulting, and advanced technical services.",
+        "goal": "We aim to be the preferred strategic partner for sustainable growth.",
+        "principles": [
+            "Quality and excellence",
+            "Transparency and credibility",
+            "Innovation and continuous development"
+        ],
+        "achievements": {
+            "projects": "200+",
+            "experience": "10+",
+            "clients": "50+",
+            "satisfaction": "95%"
+        }
+    }
+}

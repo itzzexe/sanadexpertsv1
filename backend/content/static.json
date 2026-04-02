@@ -1,0 +1,22 @@
+{
+  "ar": {
+    "hero_title": "سند إكسبرتس",
+    "hero_subtitle": "حلول استراتيجية وتقنية للأعمال",
+    "cta_text": "ابدأ رحلتك معنا",
+    "contact": {
+      "address": "بغداد، العراق",
+      "phone": "+9647855578111",
+      "email": "info@sanadxperts.com"
+    }
+  },
+  "en": {
+    "hero_title": "Sanad Xperts",
+    "hero_subtitle": "Strategic and technical solutions for business",
+    "cta_text": "Start your journey with us",
+    "contact": {
+      "address": "Baghdad, Iraq",
+      "phone": "+9647855578111",
+      "email": "info@sanadxperts.com"
+    }
+  }
+}

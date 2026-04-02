@@ -1,0 +1,142 @@
+.contact-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 12, 27, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-modal-content {
+  background: var(--bg-dark);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.contact-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+[dir="rtl"] .contact-modal-close {
+  right: auto;
+  left: 20px;
+}
+
+.contact-modal-close:hover {
+  background: var(--secondary);
+  color: var(--bg-dark);
+  transform: rotate(90deg);
+}
+
+.contact-modal-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--white);
+  letter-spacing: -0.02em;
+}
+
+.contact-modal-phone {
+  font-size: 1.1rem;
+  color: var(--secondary);
+  margin-bottom: 35px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.contact-modal-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-option-card {
+  padding: 30px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  color: var(--text-main);
+}
+
+.contact-option-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--secondary);
+  background: rgba(201, 163, 93, 0.05);
+}
+
+.contact-option-card.call .option-icon {
+  background: linear-gradient(135deg, var(--secondary), #a8884d);
+  color: var(--bg-dark);
+  box-shadow: 0 10px 20px -5px rgba(201, 163, 93, 0.3);
+}
+
+.contact-option-card.whatsapp .option-icon {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  box-shadow: 0 10px 20px -5px rgba(37, 211, 102, 0.3);
+}
+
+.option-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-option-card span {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.contact-option-card:hover .option-icon {
+  transform: scale(1.15) rotate(5deg);
+}
+
+@media (max-width: 480px) {
+  .contact-modal-content {
+    padding: 40px 20px 30px;
+    margin: 0 15px;
+  }
+  
+  .contact-modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .contact-modal-options {
+    gap: 15px;
+  }
+}

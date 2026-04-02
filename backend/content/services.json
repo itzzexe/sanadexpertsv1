@@ -1,0 +1,74 @@
+{
+    "ar": [
+        {
+            "id": 4,
+            "icon": "🏛️",
+            "title": "الاستشارات الإدارية",
+
+            "description": "نقدم استشارات إدارية وموارد بشرية متخصصة تساعد شركتك على تحقيق أهدافها الاستراتيجية، جذب أفضل المواهب، وتطوير أدائها التشغيلي بأعلى معايير الجودة والاحترافية.",
+            "features": [
+                "التطوير المؤسسي وإدارة المواهب",
+                "التخطيط الاستراتيجي والتوظيف",
+                "إدارة المشاريع وتقييم الأداء"
+            ]
+        },
+        {
+            "id": 3,
+            "icon": "💻",
+            "title": "التكنولوجيا والابتكار",
+            "description": "نساعد مؤسستك على مواكبة التطور التقني من خلال حلول رقمية متطورة تحقق أهدافك التجارية بأحدث التقنيات والممارسات العالمية في مجال التكنولوجيا والابتكار",
+            "features": [
+                "تطوير المواقع والتطبيقات",
+                "التحول الرقمي للمؤسسات",
+                "الذكاء الاصطناعي وتحليل البيانات"
+            ]
+        },
+        {
+            "id": 2,
+            "icon": "💰",
+            "title": "الاستشارات المالية",
+            "description": "نقدم استشارات مالية متخصصة تساعد مؤسستك على اتخاذ قرارات مالية مدروسة وتحقيق النمو المستدام من خلال حلول مالية مبتكرة تبني الثقة وتدعم أهدافك التجارية",
+            "features": [
+                "التخطيط المالي الاستراتيجي",
+                "إدارة المحافظ الاستثمارية",
+                "التحليل المالي المتقدم"
+            ]
+        }
+    ],
+    "en": [
+        {
+            "id": 4,
+            "icon": "🏛️",
+            "title": "Management Consulting",
+
+            "description": "We provide specialized management and HR consulting that helps your company achieve its strategic goals, attract top talent, and develop its operational performance with the highest standards of quality and professionalism.",
+            "features": [
+                "Organizational & Talent Development",
+                "Strategic Planning & Recruitment",
+                "Project & Performance Management"
+            ]
+        },
+        {
+            "id": 3,
+            "icon": "💻",
+            "title": "Technology and Innovation",
+            "description": "We help your organization keep pace with technological advancement through advanced digital solutions that achieve your business goals using the latest technologies and global practices in technology and innovation",
+            "features": [
+                "Website and application development",
+                "Digital transformation for organizations",
+                "Artificial intelligence and data analysis"
+            ]
+        },
+        {
+            "id": 2,
+            "icon": "💰",
+            "title": "Financial Consulting",
+            "description": "We provide comprehensive financial consulting services to help you achieve your investment goals and improve financial performance through strategic planning and advanced analysis using the latest financial tools and methodologies",
+            "features": [
+                "Strategic financial planning",
+                "Investment portfolio management",
+                "Advanced financial analysis"
+            ]
+        }
+    ]
+}

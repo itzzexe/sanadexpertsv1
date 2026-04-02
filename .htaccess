@@ -1,0 +1,143 @@
+# SanadXperts Website - cPanel Configuration
+# تكوين Apache للموقع على cPanel
+
+# تفعيل محرك إعادة الكتابة
+RewriteEngine On
+
+# إعادة توجيه HTTP إلى HTTPS (للأمان)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# إعادة توجيه www إلى non-www (اختياري)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# توجيه طلبات API إلى مجلد backend
+RewriteCond %{REQUEST_URI} ^/api/ [NC]
+RewriteRule ^api/(.*)$ backend/api/$1 [L]
+
+# توجيه الملفات الثابتة (تحقق أولاً في الجذر ثم في dist)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+RewriteCond %{DOCUMENT_ROOT}/dist/$1 -f
+RewriteRule ^(.*)$ dist/$1 [L]
+
+# توجيه صفحة الإدارة
+RewriteRule ^admin/?$ dist/admin.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^admin/?$ admin.html [L]
+
+# توجيه جميع الطلبات الأخرى إلى index.html (SPA)
+RewriteCond %{REQUEST_URI} !^/backend/
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ dist/index.html [L]
+
+# احتياطي في حالة عدم وجود مجلد dist (إذا تم الرفع للجذر مباشرة)
+RewriteCond %{REQUEST_URI} !^/backend/
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html [L]
+
+# إعدادات الأمان
+# منع الوصول إلى الملفات الحساسة
+<Files ~ "^\.">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files ~ "\.(sql|log|conf)$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# حماية مجلد backend من الوصول المباشر للملفات الحساسة
+<FilesMatch "\.(php)$">
+    <If "%{REQUEST_URI} =~ m#^/backend/(?!api/)#">
+        Require all denied
+    </If>
+</FilesMatch>
+
+# إعدادات الضغط (Gzip)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+</IfModule>
+
+# إعدادات التخزين المؤقت
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # الصور
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    
+    # الفيديو
+    ExpiresByType video/mp4 "access plus 1 month"
+    ExpiresByType video/webm "access plus 1 month"
+    
+    # CSS و JavaScript
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-javascript "access plus 1 week"
+    
+    # الخطوط
+    ExpiresByType font/woff "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 month"
+    ExpiresByType application/font-woff "access plus 1 month"
+    ExpiresByType application/font-woff2 "access plus 1 month"
+    
+    # HTML
+    ExpiresByType text/html "access plus 1 day"
+</IfModule>
+
+# إعدادات MIME Types
+<IfModule mod_mime.c>
+    AddType application/font-woff .woff
+    AddType application/font-woff2 .woff2
+    AddType video/mp4 .mp4
+    AddType video/webm .webm
+</IfModule>
+
+# إعدادات الأمان الإضافية
+<IfModule mod_headers.c>
+    # منع تضمين الموقع في إطارات خارجية
+    Header always append X-Frame-Options SAMEORIGIN
+    
+    # منع تشغيل المحتوى كنوع MIME مختلف
+    Header set X-Content-Type-Options nosniff
+    
+    # تفعيل حماية XSS
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # إعدادات CORS للـ API
+    <FilesMatch "\.(php)$">
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+        Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+    </FilesMatch>
+</IfModule>
+
+# معالجة طلبات OPTIONS للـ CORS
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# صفحات الأخطاء المخصصة
+ErrorDocument 404 /dist/index.html
+ErrorDocument 403 /dist/index.html

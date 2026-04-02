@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Local env and secrets
+.env*
+cookies.txt
+backend/smtp_config.php
+
+# OS-specific files
+.DS_Store
+Thumbs.db
